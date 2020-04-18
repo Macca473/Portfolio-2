@@ -44,7 +44,7 @@ body {
 
 .lisvg {
     position: absolute;
-    transform: translate(101px, -35px);
+    transform: translate(110px, -35px);
 }
 
 .glisvg {
@@ -59,8 +59,24 @@ body {
     font-size: 120%
 }
 
+.glipng1 {
+    position: absolute;
+    transform: translate(90px, -46px);
+    width: 70px;
+    height: auto;
+
+}
+
+.glipng2 {
+    position: absolute;
+    transform: translate(80px, -42px);
+    width: 60px;
+    height: auto;
+
+}
 
 @media screen and (max-width: 600px) {
+    
     .name1 {
         font-size: 130%;
         position: relative;
@@ -85,11 +101,28 @@ body {
         display: none;
     }
 
-}
+    .glipng1 {
+        position: absolute;
+        transform: translate(-15px, 0px);
+        width: 70px;
+        height: auto;
+    
+    }
 
+    .glipng2 {
+        position: absolute;
+        transform: translate(-11px, 4px);
+        width: 60px;
+        height: auto;
+    
+    }
+
+
+}
+/* 
 .border {
     border-style: solid solid solid solid;
     border-width: 1px;
 }
 
-
+ */
